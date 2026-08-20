@@ -1,7 +1,6 @@
 import webbrowser
 
 def find_word_in_video(word):
-    # Буква Ё теперь на своем законном 7-м месте
     alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
     word = word.lower().strip()
     
@@ -42,7 +41,6 @@ while True:
     user_input = input("Введите слово из 5 букв: ").strip()
     
     if not user_input:
-        print("Пока! Спасибо за расчеты.")
         break
         
     result = find_word_in_video(user_input)
